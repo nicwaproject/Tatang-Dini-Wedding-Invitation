@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <meta property="og:title" content="Wedding Invitation">
+    <meta property="og:description" content="Tatang & Dini's Wedding Invitation">
+    <meta property="og:image" content="cover2.jpeg"> <!-- Specify the URL of your preview image -->
+    <meta property="og:image:width" content="50"> <!-- Width of the image in pixels -->
+    <meta property="og:image:height" content="50"> <!-- Height of the image in pixels -->
+    <link rel="icon" href="logo2.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+      <!-- Loading Animation -->
+    <div id="loadingContainer" class="loading-container">
+        <div id="lottieAnimation"></div>
+    </div>
+
+    <div id="invitationCover" class="invitation-cover">
+        <div class="cover-content">
+            <img src="nikahfix_final.png" alt="nikah fix" class="slide-down nikahfix_logo">
+            <p class="pop-up">You are invited</p>
+            <img src="user.png" alt="user" class="user_face pop-up">
+            <p class="guest pop-up"><span id="guestName"></span></p>
+            <button id="openButton" class="slide-up">OPEN INVITATION</button>
+        </div>
+    </div>
+
+    <div id="invitationContent" class="invitation-content">
+        <nav>
+            <ul>
+                <li><a href="#section1"><i class="fas fa-home"></i></a></li>
+                <li><a href="#section4"><i class="fas fa-user"></i></a></li>
+                <li><a href="#section5"><i class="fas fa-calendar"></i></a></li>
+                <li><a href="#section7"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#love-story-section"><i class="fas fa-heart"></i></a></li>
+            </ul>
+        </nav>
+
+
+        <div class="section fade-in" id="section1">
+            <img src="nikahfix_final.png" alt="nikahfix logo" class="section1-nikahfix">
+            <h1>Tatang & Dini:</h1>
+            <h1>Sebelum Hari H</h1>
+            <div class="section1-first">
+                <p class="coming-soon">Coming Soon</p>
+                <p class="section1-date">15 Februari 2025</p>
+            </div>
+            <div class="section1-second">
+                <p class="tag">#getmarried</p>
+                <p class="tag">#romantic</p>
+                <p class="tag">#lovestory</p>
+                <p class="tag">#documenter</p>
+            </div>
+        </div>
+
+
+        <div class="section" id="section2">
+            <div class="video-section">
+                <video id="invitationVideo" class="video" muted playsinline>
+                  <source src="documenter.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <div class="video-controls">
+                    <button id="videoButton">Play</button>
+                </div>
+            </div>     
+            <div class="content2-section2 slide-left">
+                <img src="netflix_logo.png" alt="netflix logo" class="netflix-logo">
+                <p>D O C U M E N T E R</p>
+            </div>
+            <p class="section2-couple slide-left">Tatang & Dini: Sebelum Hari H</p>
+            <div class="content3-section2 slide-left">
+                <p class="match">100% Match</p>
+                <p class="su">SU</p>
+                <p>2025 02 15</p>
+                <img src="4k.png" alt="4k image" class="video-quality">
+                <img src="hd.png" alt="4k image" class="video-quality">
+            </div>
+            <div id="countdown" class="slide-left">
+                <span> Coming soon on</span>
+                <div class="unit">
+                    <span class="number" id="days"></span>
+                    <span class="label">Hari</span>
+                </div>
+                <div class="unit">
+                    <span class="number" id="hours"></span>
+                    <span class="label">Jam</span>
+                </div>
+                <div class="unit">
+                    <span class="number" id="minutes"></span>
+                    <span class="label">Menit</span>
+                </div>
+                <div class="unit">
+                    <span class="number" id="seconds"></span>
+                    <span class="label">Detik</span>
+                </div>
+            </div>
+            <p class="pengantar slide-left">Setelah Tatang dan Dini dipertemukan dalam situasi yang tepat, dimana keduanya telah siap untuk memulai hubungan bersama, tibalah mereka di awal perjalanan baru menuju pernikahan.</p>
+            <p class="terjemah slide-left">"Di antara tanda-tanda (kebesaran)-Nya ialah bahwa Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir." (Q.S Ar-Rum: 21)</p>
+        </div>
+
+
+        <div class="section" id="section3">
+            <h1 class="slide-left">Breaking News</h1>
+            <img src="cover2.jpeg" alt="foto catin" class="foto-catin1 pop-up">
+            <p class="section3-text pop-up">Hai semuanya! Ada kabar gembira nih, kita mau ngabarin kalau kita bakal segera menikah!</p>
+            <p class="section3-text pop-up">Tapi, maaf banget ya kalau nggak bisa ngundang kalian semua. Rencananya, kita bakal ngadain pernikahan yang lebih private di Lombok Tengah, cuma dengan keluarga dan sahabat terdekat.</p>
+            <p class="section3-text pop-up">Doain ya supaya semuanya lancar dan kita bisa segera membangun rumah tangga yang bahagia. Makasih banyak atas doa dan dukungannya!</p>
+            <p class="section3-text pop-up">Best Regards,</p>
+            <p class="couple-name-2 pop-up">Tatang & Dini</p>
+        </div>
+
+        <div class="section" id="section4">
+            <h1 class="fade-slide">Bride & Groom</h1>
+            <div class="profile-container">
+                <div class="profile">
+                    <img src="husband.jpeg" alt="Husband Profile" class="fade-slide">
+                    <div class="profile-info fade-slide">
+                        <h3>Khairul Imam Tarmizi</h3>
+                        <p>Putra pertama dari Bapak H. M. Fihirudin, S. Pd & Ibu Siti Hawariah, S. Pd</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="wife.jpeg" alt="Wife Profile" class="fade-slide">
+                    <div class="profile-info fade-slide">
+                        <h3>Lale Dini Ardiantari</h3>
+                        <p>Putri Pertama Bapak Lalu Jamaludin, S. Pd & Ibu Hadijah</p>
+                    </div>
+                </div>
+            </div>
+            <img src="section4.jpeg" alt="foto catin" class="foto-catin fade-slide">
+        </div>
+
+        <div class="section" id="section5">
+            <h2 class="fade-slide">Timeline & Location</h2>
+            <div class="wedding-detail">
+                <div class="event fade-slide">
+                    <div class="event-1">
+                        <img src="akad.jpeg" alt="Akad" class="event-image">
+                        <div class="event-2">
+                            <p class="event-type">Akad Nikah</p>
+                            <p class="event-time">Sabtu, 15 Februari 2025</p>
+                            <div class="event-3">
+                                <p>08:00</p>
+                                <p>#WITA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Bertempat di halaman Pondok Pesantresn Darul Aminin NWDI Aikmual</p>
+                    <a href="https://maps.app.goo.gl/iMYLxg9i2RXFbbfh8" target="_blank" class="location-button">Buka Google Map > ></a>
+                </div>                
+                <div class="event fade-slide">
+                    <div class="event-1">
+                        <img src="resepsi.jpeg" alt="Akad" class="event-image">
+                        <div class="event-2">
+                            <p class="event-type">Resepsi</p>
+                            <p class="event-time">Sabtu, 15 Februari 2025</p>
+                            <div class="event-3">
+                                <p>11:00 sd 14:00</p>
+                                <p>#WITA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Bertempat di Bertempat di halaman Pondok Pesantresn Darul Aminin NWDI Aikmual</p>
+                    <a href="https://maps.app.goo.gl/iMYLxg9i2RXFbbfh8" target="_blank" class="location-button">Buka Google Map > ></a>
+                </div> 
+            </div>
+        </div>
+
+        <!-- <div class="section" id="love-story-section">
+            <h1 class="slide-left">Our Love Story</h1>
+            <div class="episode slide-left">
+                <img src="episode1.jpeg" alt="" class="episode-image">
+                <div class="episode-content">
+                    <p>Episode 1:</p>
+                    <p>Pertemuan Tak Terduga di Bukit Buwun Mas</p>
+                    <p class="love-story">2018</p>
+                </div>
+            </div>
+            <p class="love-story1 slide-left">Berawal dari liburan akhir tahun 2018, pertemuan tak terduga yang belum menimbulkan rasa suka</p>
+            <div class="episode slide-left">
+                <img src="episode2.jpeg" alt="" class="episode-image">
+                <div class="episode-content">
+                    <p>Episode 2:</p>
+                    <p>Kejutan di Hari Ulang Tahun</p>
+                    <p class="love-story">2019</p>
+                </div>
+            </div>
+            <p class="love-story1 slide-left">Tidak ada kejutan yang spesial dihari ulang tahun mereka , mereka hanya bertukar kado sesuai request untuk pertama kalinya. Namun, di tahun 2019 adalah tahun dimana mereka memulai hubungan spesial</p>
+            <div class="episode slide-left">
+                <img src="episode3.jpeg" alt="" class="episode-image">
+                <div class="episode-content">
+                    <p>Episode 3:</p>
+                    <p>Janji Sehidup Semati</p>
+                    <p class="love-story">2024</p>
+                </div>
+            </div>
+            <p class="love-story1 slide-left">Tidak ada latar belakang pemandangan yg indah untuk melamar, hanya silaturrahmi antar keluarga. Hingga akhirnya, foto berlatar belakang yg indah yg mereka punya yaitu foto latar biru</p>
+        </div> -->
+
+        <div class="section" id="section6">
+            <h2 class="gallery-title fade-slide">Photo Gallery</h2>
+            <div class="gallery fade-slide">
+                <img src="gallery3.jpeg" alt="Gallery Photo 1" class="fade-slide">
+                <img src="gallery2.jpeg" alt="Gallery Photo 2" class="fade-slide">
+                <img src="gallery1.jpeg" alt="Gallery Photo 3" class="fade-slide">
+                <img src="cover2.jpeg" alt="Gallery Photo 4" class="fade-slide">
+                <img src="resepsi.jpeg" alt="Gallery Photo 5" class="fade-slide">
+                <img src="section4.jpeg" alt="Gallery Photo 6" class="fade-slide">
+            </div>
+        </div>
+
+        <!-- Modal for Fullscreen -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+
+            <div class="section" id="section7">
+                <h2 class="fade-slide">Your Message</h2>
+                <form id="messageForm" action="https://gugun-retno.glitch.me/messages" method="POST" class="fade-slide">
+                    <input type="text" id="formGuestName" name="name" placeholder="Your Name" required>
+                    <textarea id="guestMessage" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div id="messageList" class="fade-slide">
+                </div>
+            </div>
+
+
+        <!-- <div class="section" id="section8">
+            <div class="gift-details">
+                    <h2 class="fade-slide">Gift</h2>
+                    <p class="fade-slide">Jika ingin memberikan hadiah pernikahan, Anda dapat melakukannya melalui nomor rekening berikut:</p>
+                <div class="bank-container">
+                    <div class="bank-item">
+                        <img src="BSI.png" alt="Logo Bank" class="bank-logo1 fade-slide">
+                        <p class="bank-number fade-slide">8588250510</p>
+                        <button id="copyButton" class="copyButton fade-slide"><i class="fas fa-copy"></i></button>
+                    </div>
+                    <div class="bank-item">
+                        <img src="BRI.png" alt="Logo Bank" class="bank-logo2 fade-slide">
+                        <p class="bank-number fade-slide">473601059788535</p>
+                        <button id="copyButton" class="copyButton fade-slide"><i class="fas fa-copy"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="thank-you">
+            <img src="nikahfix_final.png" alt="nikahfix" class="nikahfix-thanks slide-down">
+            <p class="fade-slide">Merupakan suatu kehormatan & kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i hadir untuk memberikan doa restu kepada putra-putri kami.</p>
+            <p class="fade-slide">Kami yang Berbahagia</p>
+            <h2 class="fade-slide couple-name">Tatang & Dini</h2>
+        </div>
+        
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="logo fade-slide">
+                    <img src="nc logo.png" alt="Logo" />
+                </div>
+                <div class="social-media-ncp fade-slide">
+                    <a href="https://www.facebook.com/profile.php?id=61560664461271&mibextid=LQQJ4d" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/nicwaproject?igsh=enk4YWxoa24zNzY5&utm_source=qr" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+6285974176110" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://nicwaproject.github.io/NicwaProject-Store/" target="_blank" class="social-icon"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+        </footer>
+        
+    <div class="audio-controls">
+        <img id="playPauseButton" src="sound1.png" alt="Play" class="play-btn">
+    </div>
+</div>
+
+<audio id="backgroundMusic" src="EXO - For Life Piano Cover.mp3"></audio>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
