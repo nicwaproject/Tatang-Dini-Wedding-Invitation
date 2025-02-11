@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const backgroundMusic = document.getElementById('backgroundMusic');
     const playPauseButton = document.getElementById('playPauseButton');
     const audioControls = document.querySelector('.audio-controls');
+    
 // Get the modal
 var modal = document.getElementById("myModal");
 
